@@ -22,7 +22,7 @@ namespace Starter3D.API.scene.nodes
       set { _parent = value; }
     }
 
-   
+
     public void AddChild(ISceneNode child)
     {
       _children.Add(child);
@@ -62,12 +62,12 @@ namespace Starter3D.API.scene.nodes
 
     public virtual void Configure(IRenderer renderer)
     {
-      
+
     }
 
     public virtual void Render(IRenderer renderer)
     {
-      
+
     }
   }
 }
